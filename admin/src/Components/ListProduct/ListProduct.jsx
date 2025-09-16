@@ -16,7 +16,7 @@ function ListProduct() {
    }
      useEffect(()=>{
         fetchInfo();
-        console.log(backendUrl)
+        
      },[])
 
   const removeProduct = async(id)=>{
